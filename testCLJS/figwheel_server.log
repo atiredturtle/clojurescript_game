@@ -1,0 +1,3298 @@
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.499 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.356 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.235 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:4  column:1  ----[0m
+
+  [1mWrong number of args (1) passed to: analyzer/eval2125/fn--2126/pfn--2127[0m
+
+  [36m2[0m  [36m(.log js/console "This is another test!")[0m
+  [36m3[0m  [36m[0m
+  [33m4[0m  [1m(def )[0m
+  [0m [0m  [33m^--- Wrong number of args (1) passed to: analyzer/eval2125/fn--2126/pfn--2127[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.486 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.354 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.379 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.302 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.21 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.301 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.238 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/defn--29194[0m
+
+  [36m5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m6[0m  [36m[0m
+  [33m7[0m  [1m(defn )[0m
+  [0m [0m  [33m^--- Wrong number of args (0) passed to: core/defn--29194[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.279 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mParameter declaration missing[0m
+
+  [36m5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m6[0m  [36m[0m
+  [33m7[0m  [1m(defn loop)[0m
+  [0m [0m  [33m^--- Parameter declaration missing[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m6[0m  [36m[0m
+  [33m7[0m  [1m(defn loop[][0m
+  [0m [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m8[0m  [36m    [0m
+  [36m9[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.251 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m6[0m  [36m[0m
+  [33m7[0m  [1m(defn loop[][0m
+  [0m [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m8[0m  [36m        [0m
+  [36m9[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.232 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m)[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(loop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.318 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    [0m
+  [36m 9[0m  [36m)[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(loop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.347 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m)[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(js/setInterval loop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.27 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m)[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m; (js/setInterval loop 50)[0m
+  [36m12[0m  [36m(loop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.223 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    [0m
+  [36m 9[0m  [36m)[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m; (js/setInterval loop 50)[0m
+  [36m12[0m  [36m(loop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.33 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (.fillStyle ctx)[0m
+  [36m 9[0m  [36m)[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m; (js/setInterval loop 50)[0m
+  [36m12[0m  [36m(loop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.24 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m)[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m; (js/setInterval loop 50)[0m
+  [36m12[0m  [36m(loop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.244 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    [0m
+  [36m10[0m  [36m)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.207 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    (.fillRect ctx 0 0 100 100)[0m
+  [36m10[0m  [36m)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.664 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    (.fillRect ctx 0 0 100 100)[0m
+  [36m10[0m  [36m)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.366 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    (.fillRect ctx 0 0 100 100)[0m
+  [36m10[0m  [36m)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.373 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    (.fillRect ctx 0 0 100 100)[0m
+  [36m10[0m  [36m)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[31mFailed to compile "main.js" in 0.253 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:13  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+  [33m13[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    (.fillRect ctx 0 0 canvas.width canvas.height)[0m
+  [36m10[0m  [36m)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[31mFailed to compile "main.js" in 0.235 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:13  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+  [33m13[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    (.fillRect ctx 0 0 canvas.width canvas.height)[0m
+  [36m10[0m  [36m)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[31mFailed to compile "main.js" in 0.17 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:13  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+  [33m13[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    (.fillRect ctx 0 0 (:width canvas) (:height canvas))[0m
+  [36m10[0m  [36m)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[31mFailed to compile "main.js" in 0.177 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:13  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+  [33m13[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    ; (.fillRect ctx 0 0 (:width canvas) (:height canvas))[0m
+  [36m10[0m  [36m)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[31mFailed to compile "main.js" in 0.165 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:13  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m12[0m  [36m; (js/setInterval loop 50)[0m
+  [33m13[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    (.log js/console canvas)[0m
+  [36m10[0m  [36m    ; (.fillRect ctx 0 0 (:width canvas) (:height canvas))[0m
+  [36m11[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[31mFailed to compile "main.js" in 0.211 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:14  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m13[0m  [36m; (js/setInterval loop 50)[0m
+  [33m14[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.158 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:14  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m13[0m  [36m; (js/setInterval loop 50)[0m
+  [33m14[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    (.log js/console canvas)[0m
+  [36m10[0m  [36m    ; (.fillRect ctx 0 0 (:width canvas) (:height canvas))[0m
+  [36m11[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[31mFailed to compile "main.js" in 0.278 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:14  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m13[0m  [36m; (js/setInterval loop 50)[0m
+  [33m14[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.288 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:14  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m13[0m  [36m; (js/setInterval loop 50)[0m
+  [33m14[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.37 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.279 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.344 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.294 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.35 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.222 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.225 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.362 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.345 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.261 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.199 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.149 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:15  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m14[0m  [36m; (js/setInterval loop 50)[0m
+  [33m15[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:15  column:2  ----[0m
+
+  [1mUse of undeclared Var cljs.core/main[0m
+
+  [36m11[0m  [36m    (.fillRect ctx 0 0 (:width canvas) (:height canvas))[0m
+  [36m12[0m  [36m)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m; (js/setInterval loop 50)[0m
+  [33m15[0m  [1m(cljs.core/main)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var cljs.core/main[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.388 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:15  column:2  ----[0m
+
+  [1mUse of undeclared Var cljs.core/l[0m
+
+  [36m11[0m  [36m    (.fillRect ctx 0 0 (:width canvas) (:height canvas))[0m
+  [36m12[0m  [36m)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m; (js/setInterval loop 50)[0m
+  [33m15[0m  [1m(cljs.core/l)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var cljs.core/l[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.551 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.162 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:15  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m14[0m  [36m; (js/setInterval loop 50)[0m
+  [33m15[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    ; (set! (.-width canvas) 400)[0m
+  [36m10[0m  [36m    ; (.log js/console canvas)[0m
+  [36m11[0m  [36m    (.fillRect ctx 0 0 (:width canvas) (:height canvas))[0m
+  [36m12[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[31mFailed to compile "main.js" in 0.206 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:15  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m14[0m  [36m; (js/setInterval loop 50)[0m
+  [33m15[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    ; (set! (.-width canvas) 400)[0m
+  [36m10[0m  [36m    ; (.log js/console canvas)[0m
+  [36m11[0m  [36m    (.fillRect ctx 0 0 100 100)[0m
+  [36m12[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[31mFailed to compile "main.js" in 0.177 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:15  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m14[0m  [36m; (js/setInterval loop 50)[0m
+  [33m15[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mloop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn loop[][0m
+  [0m  [0m  [33m^--- loop already refers to: cljs.core/loop being replaced by: testCLJS.core/loop[0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    ; (set! (.-width canvas) 400)[0m
+  [36m10[0m  [36m    ; (.log js/console canvas)[0m
+  [36m11[0m  [36m    (.fillRect ctx 0 0 100 40)[0m
+  [36m12[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[31mFailed to compile "main.js" in 0.176 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:15  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m14[0m  [36m; (js/setInterval loop 50)[0m
+  [33m15[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.269 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:15  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/loop[0m
+
+  [36m14[0m  [36m; (js/setInterval loop 50)[0m
+  [33m15[0m  [1m(cljs.core/loop)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/loop[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:15  column:2  ----[0m
+
+  [1mUse of undeclared Var cljs.core/main[0m
+
+  [36m11[0m  [36m    (.fillRect ctx 0 0 100 40)[0m
+  [36m12[0m  [36m)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m; (js/setInterval loop 50)[0m
+  [33m15[0m  [1m(cljs.core/main)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var cljs.core/main[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.274 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.229 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.356 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.339 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.504 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.225 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.214 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.194 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.378 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:9  column:41  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [36m 7[0m  [36m(defn mainLoop[][0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [33m 9[0m  [1m    (set! (.-width canvas) (.innerWidth window))[0m
+  [0m  [0m  [33m                                        ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m10[0m  [36m    ; (.log js/console canvas)[0m
+  [36m11[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m12[0m  [36m)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.255 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.361 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:22  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m 7[0m  [36m(defn mainLoop[][0m
+  [36m 8[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m 9[0m  [36m    ; (set! (.-width canvas) (.innerWidth window))[0m
+  [36m10[0m  [36m    ; (.log js/console canvas)[0m
+  [33m11[0m  [1m    (.log js/console window)[0m
+  [0m  [0m  [33m                     ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m12[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m13[0m  [36m)[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m; (js/setInterval loop 50)[0m
+  [36m16[0m  [36m(mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.43 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.316 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.341 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.219 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.187 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.208 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.228 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mprint already refers to: cljs.core/print being replaced by: testCLJS.core/print[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn print[text] (.log js/console text))[0m
+  [0m  [0m  [33m^--- print already refers to: cljs.core/print being replaced by: testCLJS.core/print[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn mainLoop[][0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m11[0m  [36m    ; (set! (.-width canvas) (.innerWidth window))[0m
+  [36m12[0m  [36m    ; (.log js/console canvas)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.392 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mprint already refers to: cljs.core/print being replaced by: testCLJS.core/print[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn print[text] (.log js/console text))[0m
+  [0m  [0m  [33m^--- print already refers to: cljs.core/print being replaced by: testCLJS.core/print[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn mainLoop[][0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m11[0m  [36m    ; (set! (.-width canvas) (.innerWidth window))[0m
+  [36m12[0m  [36m    ; (.log js/console canvas)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.395 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mprint already refers to: cljs.core/print being replaced by: testCLJS.core/print[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn print[text] (.log js/console text))[0m
+  [0m  [0m  [33m^--- print already refers to: cljs.core/print being replaced by: testCLJS.core/print[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn mainLoop[][0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m11[0m  [36m    ; (set! (.-width canvas) (.innerWidth window))[0m
+  [36m12[0m  [36m    ; (.log js/console canvas)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.261 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:7  column:1  ----[0m
+
+  [1mprint already refers to: cljs.core/print being replaced by: testCLJS.core/print[0m
+
+  [36m 4[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 5[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(defn print[text] (.log js/console text))[0m
+  [0m  [0m  [33m^--- print already refers to: cljs.core/print being replaced by: testCLJS.core/print[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn mainLoop[][0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m11[0m  [36m    ; (set! (.-width canvas) (.innerWidth window))[0m
+  [36m12[0m  [36m    ; (.log js/console canvas)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.244 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.358 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.354 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.397 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:12  column:41  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m 8[0m  [36m; (defn print[text] (.log js/console text))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [33m12[0m  [1m    (set! (.-width canvas) (.innerWidth window))[0m
+  [0m  [0m  [33m                                        ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.innerWidth window))[0m
+  [36m14[0m  [36m    ; (.log js/console canvas)[0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:13  column:42  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.innerWidth window))[0m
+  [33m13[0m  [1m    (set! (.-height canvas) (.innerWidth window))[0m
+  [0m  [0m  [33m                                         ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m14[0m  [36m    ; (.log js/console canvas)[0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.256 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:12  column:41  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m 8[0m  [36m; (defn print[text] (.log js/console text))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [33m12[0m  [1m    (set! (.-width canvas) (.innerWidth window))[0m
+  [0m  [0m  [33m                                        ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.innerHeight window))[0m
+  [36m14[0m  [36m    ; (.log js/console canvas)[0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:13  column:43  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.innerWidth window))[0m
+  [33m13[0m  [1m    (set! (.-height canvas) (.innerHeight window))[0m
+  [0m  [0m  [33m                                          ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m14[0m  [36m    ; (.log js/console canvas)[0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.268 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:12  column:41  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m 8[0m  [36m; (defn print[text] (.log js/console text))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [33m12[0m  [1m    (set! (.-width canvas) (.innerWidth window))[0m
+  [0m  [0m  [33m                                        ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.innerHeight window))[0m
+  [36m14[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m15[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m16[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:13  column:43  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.innerWidth window))[0m
+  [33m13[0m  [1m    (set! (.-height canvas) (.innerHeight window))[0m
+  [0m  [0m  [33m                                          ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m14[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m15[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m16[0m  [36m)[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m; (js/setInterval loop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.305 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:12  column:41  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m 8[0m  [36m; (defn print[text] (.log js/console text))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [33m12[0m  [1m    (set! (.-width canvas) (.innerWidth window))[0m
+  [0m  [0m  [33m                                        ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.innerHeight window))[0m
+  [36m14[0m  [36m    [0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:13  column:43  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.innerWidth window))[0m
+  [33m13[0m  [1m    (set! (.-height canvas) (.innerHeight window))[0m
+  [0m  [0m  [33m                                          ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m14[0m  [36m    [0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.385 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:12  column:41  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m 8[0m  [36m; (defn print[text] (.log js/console text))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [33m12[0m  [1m    (set! (.-width canvas) (.innerWidth window))[0m
+  [0m  [0m  [33m                                        ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.innerHeight window))[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:13  column:43  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.innerWidth window))[0m
+  [33m13[0m  [1m    (set! (.-height canvas) (.innerHeight window))[0m
+  [0m  [0m  [33m                                          ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.456 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:12  column:41  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m 8[0m  [36m; (defn print[text] (.log js/console text))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [33m12[0m  [1m    (set! (.-width canvas) (.innerWidth window))[0m
+  [0m  [0m  [33m                                        ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.innerHeight window))[0m
+  [36m14[0m  [36m    [0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:13  column:43  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.innerWidth window))[0m
+  [33m13[0m  [1m    (set! (.-height canvas) (.innerHeight window))[0m
+  [0m  [0m  [33m                                          ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m14[0m  [36m    [0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.4 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:12  column:42  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m 8[0m  [36m; (defn print[text] (.log js/console text))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [33m12[0m  [1m    (set! (.-width canvas) (.-innerWidth window))[0m
+  [0m  [0m  [33m                                         ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.-innerHeight window))[0m
+  [36m14[0m  [36m    [0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:13  column:44  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.-innerWidth window))[0m
+  [33m13[0m  [1m    (set! (.-height canvas) (.-innerHeight window))[0m
+  [0m  [0m  [33m                                           ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m14[0m  [36m    [0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.3 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:12  column:41  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m 8[0m  [36m; (defn print[text] (.log js/console text))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [33m12[0m  [1m    (set! (.-width canvas) (.innerWidth window))[0m
+  [0m  [0m  [33m                                        ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.innerHeight window))[0m
+  [36m14[0m  [36m    [0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:13  column:43  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/window[0m
+
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.innerWidth window))[0m
+  [33m13[0m  [1m    (set! (.-height canvas) (.innerHeight window))[0m
+  [0m  [0m  [33m                                          ^--- Use of undeclared Var testCLJS.core/window[0m
+  [36m14[0m  [36m    [0m
+  [36m15[0m  [36m    (println (.-innerWidth js/window))[0m
+  [36m16[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height  canvas))[0m
+  [36m17[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.363 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.195 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.239 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.454 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.321 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.362 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.321 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.216 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.29 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.537 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.334 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.364 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/defn--29194[0m
+
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(defn)[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/defn--29194[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mchar already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+
+  [36m 5[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def char {:x 0 :y 0})[0m
+  [0m  [0m  [33m^--- char already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.-innerWidth js/window))[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.237 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mchar already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+
+  [36m 5[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def char {:x 100 :y 100})[0m
+  [0m  [0m  [33m^--- char already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.-innerWidth js/window))[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.306 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mchar already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+
+  [36m 5[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def char {:x 100 :y 100 :width 20 :height 20})[0m
+  [0m  [0m  [33m^--- char already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.-innerWidth js/window))[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.243 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mchar already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+
+  [36m 5[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def char {:x 100 :y 100 :width 20 :height 20 :color 10})[0m
+  [0m  [0m  [33m^--- char already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.-innerWidth js/window))[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.307 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mchar already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+
+  [36m 5[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def char {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [0m  [0m  [33m^--- char already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.-innerWidth js/window))[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.329 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mchar already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+
+  [36m 5[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def char {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [0m  [0m  [33m^--- char already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.-innerWidth js/window))[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.316 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mchar already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+
+  [36m 5[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def char {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [0m  [0m  [33m^--- char already refers to: cljs.core/char being replaced by: testCLJS.core/char[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn mainLoop[][0m
+  [36m11[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m12[0m  [36m    (set! (.-width canvas) (.-innerWidth js/window))[0m
+  [36m13[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.309 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.248 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.332 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.344 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.523 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.369 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.306 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.295 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.333 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.295 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.133 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mToo many arguments to def at line 8 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def drawObject[obj] [0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 8 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+  [36m 9[0m  [36m    (.fillRect ctx)[0m
+  [36m10[0m  [36m    )[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.216 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mToo many arguments to def at line 8 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def drawObject[obj] [0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 8 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+  [36m 9[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj))[0m
+  [36m10[0m  [36m    )[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.211 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mToo many arguments to def at line 8 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def drawObject[obj] [0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 8 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+  [36m 9[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.155 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mToo many arguments to def at line 8 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def drawObject[obj] [0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 8 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+  [36m 9[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.328 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:8  column:1  ----[0m
+
+  [1mToo many arguments to def at line 8 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(def drawObject[obj] [0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 8 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+  [36m 9[0m  [36m    (!set (.-fillStyle ctx) (:color obj))[0m
+  [36m10[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:9  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 5[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(defn drawObject[obj] [0m
+  [33m 9[0m  [1m    (!set (.-fillStyle ctx) (:color obj))[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m10[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(defn mainLoop[][0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.319 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:10  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(defn drawObject[obj] [0m
+  [36m 9[0m  [36m    (println "drawing obj")[0m
+  [33m10[0m  [1m    (!set (.-fillStyle ctx) (:color obj))[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m11[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.322 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:10  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(defn drawObject[obj] [0m
+  [36m 9[0m  [36m    (println "drawing obj")[0m
+  [33m10[0m  [1m    (!set (.-fillStyle ctx) (:color obj))[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m11[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.307 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (println "drawing obj")[0m
+  [33m11[0m  [1m    (!set (.-fillStyle ctx) (:color obj))[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m12[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+  [36m16[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.342 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (println "drawing obj")[0m
+  [33m11[0m  [1m    (!set (.-fillStyle ctx) (:color obj))[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m12[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+  [36m16[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.416 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (println "drawing obj")[0m
+  [33m11[0m  [1m    (!set (.-fillStyle ctx) "white")[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m12[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+  [36m16[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.35 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (println "drawing obj")[0m
+  [33m11[0m  [1m    (!set (.-fillStyle ctx) "white")[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m12[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+  [36m16[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.264 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (println "drawing obj")[0m
+  [33m11[0m  [1m    (!set (.-fillStyle ctx) "white")[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m12[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+  [36m16[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.271 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:10  column:28  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/ob[0m
+
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [33m10[0m  [1m    (println "drawing obj" ob)[0m
+  [0m  [0m  [33m                           ^--- Use of undeclared Var testCLJS.core/ob[0m
+  [36m11[0m  [36m    (!set (.-fillStyle ctx) "white")[0m
+  [36m12[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (println "drawing obj" ob)[0m
+  [33m11[0m  [1m    (!set (.-fillStyle ctx) "white")[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m12[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+  [36m16[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.38 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (println "drawing obj" obj)[0m
+  [33m11[0m  [1m    (!set (.-fillStyle ctx) "white")[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m12[0m  [36m    (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+  [36m16[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.35 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.306 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.534 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.299 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.342 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (println "drawing obj" (:color obj))[0m
+  [33m11[0m  [1m    (!set (.-fillStyle ctx) "white")[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m12[0m  [36m    ; (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj))[0m
+  [36m13[0m  [36m)[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(defn mainLoop[][0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.437 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.252 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.293 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.341 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:10  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/!set[0m
+
+  [36m 6[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [33m10[0m  [1m    (!set (.-fillStyle ctx) "white")[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/!set[0m
+  [36m11[0m  [36m    ; (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj))[0m
+  [36m12[0m  [36m)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.383 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.358 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.375 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.351 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.359 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.223 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.475 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:27 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 7 of list, starting at line 9 and column 1.[0m
+
+  [36m26[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m27[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 7 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:21  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/x:x[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) (:color obj))[0m
+  [33m11[0m  [1m    (.fillRect ctx (x:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [0m  [0m  [33m                    ^--- Use of undeclared Var testCLJS.core/x:x[0m
+  [36m12[0m  [36m    ; (.fillRect ctx (map obj [:x :y :width :height]))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn mainLoop[][0m
+  [36m16[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.278 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.379 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.166 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:27 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 7 of list, starting at line 9 and column 1.[0m
+
+  [36m26[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m27[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 7 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.162 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:29 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 29, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+  [36m28[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m29[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 29, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.351 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.158 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:29 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 29, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+  [36m28[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m29[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 29, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.313 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:28 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 28, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+  [36m27[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m28[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 28, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.162 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:27 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+  [36m26[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m27[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.146 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:27 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+  [36m26[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m27[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.258 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:27 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+  [36m26[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m27[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 8 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.332 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:27 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 7 of list, starting at line 9 and column 1.[0m
+
+  [36m26[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m27[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 7 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.3 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:27 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 6 of list, starting at line 9 and column 1.[0m
+
+  [36m26[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m27[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 6 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.255 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:27 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 6 of list, starting at line 9 and column 1.[0m
+
+  [36m26[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m27[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 6 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.146 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:27 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 6 of list, starting at line 9 and column 1.[0m
+
+  [36m26[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m27[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 6 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.278 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:27 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 6 of list, starting at line 9 and column 1.[0m
+
+  [36m26[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m27[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 27, col 11] Unexpected EOF while reading item 6 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.182 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:26 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 26, col 11] Unexpected EOF while reading item 6 of list, starting at line 9 and column 1.[0m
+
+  [36m25[0m  [36m; (js/setInterval mainLoop 50)[0m
+  [33m26[0m  [1m(mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 26, col 11] Unexpected EOF while reading item 6 of list, starting at line 9 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.205 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:13  column:14  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/objMap[0m
+
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    ; (set! (.-fillStyle ctx) (:color obj))[0m
+  [36m11[0m  [36m    ; (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m12[0m  [36m    ; (def objMap (map obj [:x :y :width :height])) [0m
+  [33m13[0m  [1m    (println objMap)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var testCLJS.core/objMap[0m
+  [36m14[0m  [36m    ; (.fillRect ctx (map obj [:x :y :width :height]))[0m
+  [36m15[0m  [36m)[0m
+  [36m16[0m  [36m[0m
+  [36m17[0m  [36m(defn mainLoop[][0m
+  [36m18[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.279 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.372 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.36 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.22 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.221 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.299 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:11 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 11, col 43] The map literal starting with :keys on line 11 column 11 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) (:color obj))[0m
+  [33m11[0m  [1m    (let [{:keys [x y width height] (obj)}])[0m
+  [0m  [0m  [33m    /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 11, col 43] The map literal starting with :keys on line 11 column 11 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m12[0m  [36m    ; (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m13[0m  [36m    (.fillRect ctx (map obj [:x :y :width :height]))[0m
+  [36m14[0m  [36m)[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.212 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.192 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:11 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 11, col 43] The map literal starting with :keys on line 11 column 11 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) (:color obj))[0m
+  [33m11[0m  [1m    (let [{:keys [x y width height] (obj)}][0m
+  [0m  [0m  [33m    /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 11, col 43] The map literal starting with :keys on line 11 column 11 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m12[0m  [36m        (println x y width height)    [0m
+  [36m13[0m  [36m    )[0m
+  [36m14[0m  [36m    ; (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.306 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:11 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 11, col 43] The map literal starting with :keys on line 11 column 11 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) (:color obj))[0m
+  [33m11[0m  [1m    (let [{:keys [x y width height] (obj)}][0m
+  [0m  [0m  [33m    /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 11, col 43] The map literal starting with :keys on line 11 column 11 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m12[0m  [36m        (println "test")[0m
+  [36m13[0m  [36m        (println x y width height)    [0m
+  [36m14[0m  [36m    )[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.298 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:12 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 12, col 43] The map literal starting with :keys on line 12 column 11 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m10[0m  [36m(set! (.-fillStyle ctx) (:color obj))[0m
+  [36m11[0m  [36m(println "test")[0m
+  [33m12[0m  [1m(let [{:keys [x y width height] (obj)}][0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 12, col 43] The map literal starting with :keys on line 12 column 11 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m13[0m  [36m    [0m
+  [36m14[0m  [36m    (println x y width height)    [0m
+  [36m15[0m  [36m)[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.174 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:11 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 11, col 43] The map literal starting with :keys on line 11 column 11 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) (:color obj))[0m
+  [33m11[0m  [1m    (let [{:keys [x y width height] (obj)}][0m
+  [0m  [0m  [33m    /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 11, col 43] The map literal starting with :keys on line 11 column 11 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m12[0m  [36m        [0m
+  [36m13[0m  [36m        (println x y width height)    [0m
+  [36m14[0m  [36m    )[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.229 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.389 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.357 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.214 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:11 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 11, col 28] Unmatched delimiter ).[0m
+
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) (:color obj))[0m
+  [33m11[0m  [1m    (let [{:keys [x y]} ob)][0m
+  [0m  [0m  [33m    /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 11, col 28] Unmatched delimiter ).[0m
+  [36m12[0m  [36m        [0m
+  [36m13[0m  [36m        (println x y)    [0m
+  [36m14[0m  [36m    )[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.208 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/pritnln[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) (:color obj))[0m
+  [33m11[0m  [1m    (pritnln "test'")[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/pritnln[0m
+  [36m12[0m  [36m    (let [{:keys [x y]} obj][0m
+  [36m13[0m  [36m        [0m
+  [36m14[0m  [36m        (println x y)    [0m
+  [36m15[0m  [36m    )[0m
+  [36m16[0m  [36m    ; (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.294 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/pritnln[0m
+
+  [36m 7[0m  [36m(def player {:x 100 :y 100 :width 20 :height 20 :color "red"})[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn drawObject[obj] [0m
+  [36m10[0m  [36m    (set! (.-fillStyle ctx) (:color obj))[0m
+  [33m11[0m  [1m    (pritnln "test")[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var testCLJS.core/pritnln[0m
+  [36m12[0m  [36m    (let [{:keys [x y]} obj][0m
+  [36m13[0m  [36m        [0m
+  [36m14[0m  [36m        (println x y)    [0m
+  [36m15[0m  [36m    )[0m
+  [36m16[0m  [36m    ; (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.353 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.391 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.245 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.206 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.153 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:17 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 17, col 2] Unmatched delimiter ).[0m
+
+  [36m15[0m  [36m    ; (.fillRect ctx (:x obj) (:y obj) (:width obj) (:height obj)))[0m
+  [36m16[0m  [36m    ; [0m
+  [33m17[0m  [1m)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 17, col 2] Unmatched delimiter ).[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(defn mainLoop[][0m
+  [36m20[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.275 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:14 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 14, col 2] Unmatched delimiter ).[0m
+
+  [36m12[0m  [36m    (let [{:keys [x y width height]} obj][0m
+  [36m13[0m  [36m        (.fillRect ctx x y width height)) )[0m
+  [33m14[0m  [1m)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 14, col 2] Unmatched delimiter ).[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(defn mainLoop[][0m
+  [36m17[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.228 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.209 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.397 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.214 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.459 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.399 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.353 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.178 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.42 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.378 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.233 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.354 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.23 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.166 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:15 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 15, col 7] Invalid symbol: a:.[0m
+
+  [36m14[0m  [36m(def gameState (atom {[0m
+  [33m15[0m  [1m    a: 1[0m
+  [0m  [0m  [33m    /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 15, col 7] Invalid symbol: a:.[0m
+  [36m16[0m  [36m    b: 2[0m
+  [36m17[0m  [36m    }[0m
+  [36m18[0m  [36m))[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.212 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.216 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.216 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.213 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.222 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.295 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.411 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.298 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.255 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.226 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.377 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.453 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.208 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.345 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.204 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.457 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.388 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.423 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.44 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.409 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.235 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.314 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.47 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.228 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.262 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.329 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.36 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.418 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.372 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.22 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.383 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.266 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.571 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.397 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.51 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.333 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.234 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.386 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.233 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.355 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.352 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.33 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.339 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.325 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.339 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.393 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.38 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.314 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.431 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:27  column:18  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/newPlayer[0m
+
+  [36m23[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m    (let [{keys [player]} @gameState][0m
+  [36m26[0m  [36m        (drawObject player)[0m
+  [33m27[0m  [1m        (println newPlayer)[0m
+  [0m  [0m  [33m                 ^--- Use of undeclared Var testCLJS.core/newPlayer[0m
+  [36m28[0m  [36m        (def newPlayer (assoc player :x 10))[0m
+  [36m29[0m  [36m        (swap! gameState assoc :player newPlayer)[0m
+  [36m30[0m  [36m        [0m
+  [36m31[0m  [36m    )[0m
+  [36m32[0m  [36m    ; (def newPlayer (assoc player :x (+ 1 (:x player))))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.469 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.411 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.319 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.433 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.424 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.403 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.314 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.381 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.318 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:36 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 36, col 2] Unmatched delimiter ).[0m
+
+  [36m34[0m  [36m    ; (def newPlayer (assoc player :x (+ 1 (:x player))))[0m
+  [36m35[0m  [36m    ; (swap! gameState assoc :player newPlayer)[0m
+  [33m36[0m  [1m)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 36, col 2] Unmatched delimiter ).[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m39[0m  [36m; (mainLoop)[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.289 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.301 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.379 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.344 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.263 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.508 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.281 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.392 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.475 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.316 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.232 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.473 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.299 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.516 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.294 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.239 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.207 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.417 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.481 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.342 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.313 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:28  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/gameState[0m
+
+  [36m21[0m  [36m    (set! (.-width canvas) (.-innerWidth js/window))[0m
+  [36m22[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m23[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m24[0m  [36m[0m
+  [33m25[0m  [1m    (let [{keys [player]} @gameState][0m
+  [0m  [0m  [33m                           ^--- Use of undeclared Var testCLJS.core/gameState[0m
+  [36m26[0m  [36m        (drawObject player)[0m
+  [36m27[0m  [36m        (println player)[0m
+  [36m28[0m  [36m        (let [newPlayer (assoc player :x 10)][0m
+  [36m29[0m  [36m            (println "newPlayer" newPlayer)[0m
+  [36m30[0m  [36m            (swap! gameState assoc :player newPlayer))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:30  column:20  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/gameState[0m
+
+  [36m26[0m  [36m        (drawObject player)[0m
+  [36m27[0m  [36m        (println player)[0m
+  [36m28[0m  [36m        (let [newPlayer (assoc player :x 10)][0m
+  [36m29[0m  [36m            (println "newPlayer" newPlayer)[0m
+  [33m30[0m  [1m            (swap! gameState assoc :player newPlayer))[0m
+  [0m  [0m  [33m                   ^--- Use of undeclared Var testCLJS.core/gameState[0m
+  [36m31[0m  [36m        [0m
+  [36m32[0m  [36m    )[0m
+  [36m33[0m  [36m    ; (def newPlayer (assoc player :x (+ 1 (:x player))))[0m
+  [36m34[0m  [36m    ; (swap! gameState assoc :player newPlayer)[0m
+  [36m35[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.427 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:28  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/gameState[0m
+
+  [36m21[0m  [36m    (set! (.-width canvas) (.-innerWidth js/window))[0m
+  [36m22[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m23[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m24[0m  [36m[0m
+  [33m25[0m  [1m    (let [{keys [player]} @gameState][0m
+  [0m  [0m  [33m                           ^--- Use of undeclared Var testCLJS.core/gameState[0m
+  [36m26[0m  [36m        (drawObject player)[0m
+  [36m27[0m  [36m        (println player)[0m
+  [36m28[0m  [36m        ; (let [newPlayer (assoc player :x 10)][0m
+  [36m29[0m  [36m        ;     (println "newPlayer" newPlayer)[0m
+  [36m30[0m  [36m        ;     (swap! gameState assoc :player newPlayer))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.371 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:36  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m32[0m  [36m    ; (def newPlayer (assoc player :x (+ 1 (:x player))))[0m
+  [36m33[0m  [36m    ; (swap! gameState assoc :player newPlayer)[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m    (def newPlayer (assoc player :x (inc (:x player))))[0m
+  [33m36[0m  [1m    (def player newPlayer)[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m37[0m  [36m)[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m40[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.878 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:37  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m33[0m  [36m    ; (swap! gameState assoc :player newPlayer)[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m    (def newPlayer (assoc player :x (inc (:x player))))[0m
+  [36m36[0m  [36m    (println "old" player)[0m
+  [33m37[0m  [1m    (def player newPlayer)[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m38[0m  [36m    (println "new" player)[0m
+  [36m39[0m  [36m)[0m
+  [36m40[0m  [36m[0m
+  [36m41[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m42[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.708 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:39  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m35[0m  [36m    ; (swap! gameState assoc :player newPlayer)[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m    (def newPlayer (assoc player :x (inc (:x player))))[0m
+  [36m38[0m  [36m    (println "old" player)[0m
+  [33m39[0m  [1m    (def player newPlayer)[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m40[0m  [36m    (println "new" player)[0m
+  [36m41[0m  [36m)[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m44[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.509 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m22[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m23[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m    (drawObject player)[0m
+  [33m26[0m  [1m    (def player (assoc player :x (inc (:x player))))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m27[0m  [36m)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m30[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.477 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 1.275 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:30 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 30, col 13] Unexpected EOF while reading item 10 of list, starting at line 19 and column 1.[0m
+
+  [36m29[0m  [36m(js/setInterval mainLoop 50)[0m
+  [33m30[0m  [1m; (mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 30, col 13] Unexpected EOF while reading item 10 of list, starting at line 19 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m22[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m23[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m    (drawObject player)[0m
+  [33m26[0m  [1m    (def player (assoc player :x (inc (:x player))))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m27[0m  [36m    ; (def player (update player :x inc)[0m
+  [36m28[0m  [36m)[0m
+  [36m29[0m  [36m[0m
+  [36m30[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m31[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 1.075 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.912 seconds.[0m
+[36m----  Could not Read  src/testCLJS/core.cljs   line:31 ----[0m
+
+  [1m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 31, col 13] Unexpected EOF while reading item 10 of list, starting at line 19 and column 1.[0m
+
+  [36m30[0m  [36m(js/setInterval mainLoop 50)[0m
+  [33m31[0m  [1m; (mainLoop)[0m
+  [0m  [0m  [33m/Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs [line 31, col 13] Unexpected EOF while reading item 10 of list, starting at line 19 and column 1.[0m
+
+[36m----  Reader Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.511 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:29  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m25[0m  [36m    (drawObject player)[0m
+  [36m26[0m  [36m    ; (def player (assoc player :x (inc (:x player))))[0m
+  [36m27[0m  [36m    (def p2 (update player :x + 2))[0m
+  [36m28[0m  [36m    (print p2)[0m
+  [33m29[0m  [1m    (def player p2)[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m30[0m  [36m)[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m33[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.27 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:27  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m23[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m    (drawObject player)[0m
+  [36m26[0m  [36m    ; (def player (assoc player :x (inc (:x player))))[0m
+  [33m27[0m  [1m    (def player (update player :x + 2))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m28[0m  [36m    (print p2)[0m
+  [36m29[0m  [36m    (def player p2)[0m
+  [36m30[0m  [36m)[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(js/setInterval mainLoop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:28  column:12  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/p2[0m
+
+  [36m25[0m  [36m    (drawObject player)[0m
+  [36m26[0m  [36m    ; (def player (assoc player :x (inc (:x player))))[0m
+  [36m27[0m  [36m    (def player (update player :x + 2))[0m
+  [33m28[0m  [1m    (print p2)[0m
+  [0m  [0m  [33m           ^--- Use of undeclared Var testCLJS.core/p2[0m
+  [36m29[0m  [36m    (def player p2)[0m
+  [36m30[0m  [36m)[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m33[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:29  column:5  ----[0m
+
+  [1mplayer at line 27 is being replaced[0m
+
+  [36m25[0m  [36m    (drawObject player)[0m
+  [36m26[0m  [36m    ; (def player (assoc player :x (inc (:x player))))[0m
+  [36m27[0m  [36m    (def player (update player :x + 2))[0m
+  [36m28[0m  [36m    (print p2)[0m
+  [33m29[0m  [1m    (def player p2)[0m
+  [0m  [0m  [33m    ^--- player at line 27 is being replaced[0m
+  [36m30[0m  [36m)[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m33[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:29  column:17  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/p2[0m
+
+  [36m25[0m  [36m    (drawObject player)[0m
+  [36m26[0m  [36m    ; (def player (assoc player :x (inc (:x player))))[0m
+  [36m27[0m  [36m    (def player (update player :x + 2))[0m
+  [36m28[0m  [36m    (print p2)[0m
+  [33m29[0m  [1m    (def player p2)[0m
+  [0m  [0m  [33m                ^--- Use of undeclared Var testCLJS.core/p2[0m
+  [36m30[0m  [36m)[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m33[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.376 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:27  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m23[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m    (drawObject player)[0m
+  [36m26[0m  [36m    ; (def player (assoc player :x (inc (:x player))))[0m
+  [33m27[0m  [1m    (def player (update player :x + 2))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m28[0m  [36m    ; (print p2)[0m
+  [36m29[0m  [36m    ; (def player p2)[0m
+  [36m30[0m  [36m)[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(js/setInterval mainLoop 50)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.337 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m22[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m23[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m    (drawObject player)[0m
+  [33m26[0m  [1m    (def player (update player :x + 2))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m27[0m  [36m)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m30[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.232 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:28  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m24[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m25[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m    (drawObject player)[0m
+  [33m28[0m  [1m    (def player (update player :x + 2))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m29[0m  [36m)[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m32[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.446 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:32  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m28[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m29[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m    (drawObject player)[0m
+  [33m32[0m  [1m    (def player (update player :x + 2))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m33[0m  [36m)[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m36[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.235 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:32  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m28[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m29[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m    (drawObject player)[0m
+  [33m32[0m  [1m    (def player (update player :x + 2))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m33[0m  [36m)[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m36[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.228 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.784 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.394 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.19 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.273 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m21[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m22[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m    (drawObject player)[0m
+  [33m25[0m  [1m    (def player (moveObject player))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m26[0m  [36m)[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m29[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.297 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m21[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m22[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m    (drawObject player)[0m
+  [33m25[0m  [1m    (def player (moveObject player))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m26[0m  [36m)[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(js/setInterval mainLoop 50)[0m
+  [36m29[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.436 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m21[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m22[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m    (drawObject player)[0m
+  [33m25[0m  [1m    (def player (moveObject player))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m26[0m  [36m)[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(js/setInterval mainLoop 20)[0m
+  [36m29[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.738 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m21[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m22[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m    (drawObject player)[0m
+  [33m25[0m  [1m    (def player (moveObject player))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m26[0m  [36m)[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(js/setInterval mainLoop 10)[0m
+  [36m29[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.334 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:28  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m24[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m25[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m    (drawObject player)[0m
+  [33m28[0m  [1m    (def player (moveObject player))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m29[0m  [36m)[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m(js/setInterval mainLoop 10)[0m
+  [36m32[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.522 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m21[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m22[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m    (drawObject player)[0m
+  [33m25[0m  [1m    (def player (moveObject player))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m26[0m  [36m)[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(js/setInterval mainLoop 10)[0m
+  [36m29[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.253 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m21[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m22[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m    (drawObject player)[0m
+  [33m25[0m  [1m    (def player (moveObject player))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m26[0m  [36m)[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(js/setInterval mainLoop 10)[0m
+  [36m29[0m  [36m; (mainLoop)[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.631 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m21[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m22[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m    (drawObject player)[0m
+  [33m25[0m  [1m    (def player (moveObject player))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m26[0m  [36m)[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(defn keyDownHandler[e][0m
+  [36m29[0m  [36m    (js/alert e.keyCode))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 1.597 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m21[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m22[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m    (drawObject player)[0m
+  [33m25[0m  [1m    (def player (moveObject player))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m26[0m  [36m)[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(defn keyDownHandler[e][0m
+  [36m29[0m  [36m    (js/alert e.keyCode))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.232 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:25  column:5  ----[0m
+
+  [1mplayer at line 7 is being replaced[0m
+
+  [36m21[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+  [36m22[0m  [36m    (.fillRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m    (drawObject player)[0m
+  [33m25[0m  [1m    (def player (moveObject player))[0m
+  [0m  [0m  [33m    ^--- player at line 7 is being replaced[0m
+  [36m26[0m  [36m)[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(defn keyDownHandler[e][0m
+  [36m29[0m  [36m    (js/alert e.keyCode))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.497 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 1.383 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.532 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.405 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.242 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.235 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.519 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.513 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.458 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.351 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.302 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mset! target must be a field or a symbol naming a var at line 26 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+
+  [36m24[0m  [36m    (drawObject player)[0m
+  [36m25[0m  [36m    ; (set! player (moveObject player))[0m
+  [33m26[0m  [1m    (set! (.x player) 10)[0m
+  [0m  [0m  [33m    ^--- set! target must be a field or a symbol naming a var at line 26 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+  [36m27[0m  [36m    (println player)[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.278 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mset! target must be a field or a symbol naming a var at line 26 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+
+  [36m24[0m  [36m    (drawObject player)[0m
+  [36m25[0m  [36m    ; (set! player (moveObject player))[0m
+  [33m26[0m  [1m    (set! (.x player) 10)[0m
+  [0m  [0m  [33m    ^--- set! target must be a field or a symbol naming a var at line 26 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+  [36m27[0m  [36m    (println player)[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.2 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.349 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mset! target must be a field or a symbol naming a var at line 26 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+
+  [36m24[0m  [36m    (drawObject player)[0m
+  [36m25[0m  [36m    ; (set! player (moveObject player))[0m
+  [33m26[0m  [1m    (set! (.x player) 10)[0m
+  [0m  [0m  [33m    ^--- set! target must be a field or a symbol naming a var at line 26 /Users/guysegev/Desktop/testCLJS/src/testCLJS/core.cljs[0m
+  [36m27[0m  [36m    (println player)[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 1.06 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mset! target must be a field or a symbol naming a var at line 26 src/testCLJS/core.cljs[0m
+
+  [36m24[0m  [36m    (drawObject player)[0m
+  [36m25[0m  [36m    ; (set! player (moveObject player))[0m
+  [33m26[0m  [1m    (set! (.x player) 10)[0m
+  [0m  [0m  [33m    ^--- set! target must be a field or a symbol naming a var at line 26 src/testCLJS/core.cljs[0m
+  [36m27[0m  [36m    (println player)[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.163 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mset! target must be a field or a symbol naming a var at line 26 src/testCLJS/core.cljs[0m
+
+  [36m24[0m  [36m    (drawObject player)[0m
+  [36m25[0m  [36m    ; (set! player (moveObject player))[0m
+  [33m26[0m  [1m    (set! (.x player) 10)[0m
+  [0m  [0m  [33m    ^--- set! target must be a field or a symbol naming a var at line 26 src/testCLJS/core.cljs[0m
+  [36m27[0m  [36m    (println player)[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.443 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mset! target must be a field or a symbol naming a var at line 26 src/testCLJS/core.cljs[0m
+
+  [36m24[0m  [36m    (drawObject player)[0m
+  [36m25[0m  [36m    ; (set! player (moveObject player))[0m
+  [33m26[0m  [1m    (set! (.x player) 10)[0m
+  [0m  [0m  [33m    ^--- set! target must be a field or a symbol naming a var at line 26 src/testCLJS/core.cljs[0m
+  [36m27[0m  [36m    (println player)[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 1.869 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.32 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mset! target must be a field or a symbol naming a var at line 26 src/testCLJS/core.cljs[0m
+
+  [36m24[0m  [36m    (drawObject player)[0m
+  [36m25[0m  [36m    ; (set! player (moveObject player))[0m
+  [33m26[0m  [1m    (set! (.x player) 10)[0m
+  [0m  [0m  [33m    ^--- set! target must be a field or a symbol naming a var at line 26 src/testCLJS/core.cljs[0m
+  [36m27[0m  [36m    (println player)[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.206 seconds.[0m
+[36m----  Could not Analyze  src/testCLJS/core.cljs   line:26  column:5  ----[0m
+
+  [1mset! target must be a field or a symbol naming a var at line 26 src/testCLJS/core.cljs[0m
+
+  [36m24[0m  [36m    (drawObject player)[0m
+  [36m25[0m  [36m    ; (set! player (moveObject player))[0m
+  [33m26[0m  [1m    (set! (.x player) 10)[0m
+  [0m  [0m  [33m    ^--- set! target must be a field or a symbol naming a var at line 26 src/testCLJS/core.cljs[0m
+  [36m27[0m  [36m    (println player)[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/testCLJS/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.291 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.334 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.434 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.512 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.608 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.361 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.607 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.432 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.328 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.385 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.223 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:17  column:7  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/gameState[0m
+
+  [36m13[0m  [36m(defn moveObject[obj][0m
+  [36m14[0m  [36m     (let [{:keys [x y vx vy]} obj][0m
+  [36m15[0m  [36m        (assoc obj :x (+ x vx) :y (+ y vy))))[0m
+  [36m16[0m  [36m[0m
+  [33m17[0m  [1m(atom gameState)[0m
+  [0m  [0m  [33m      ^--- Use of undeclared Var testCLJS.core/gameState[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(defn mainLoop[][0m
+  [36m20[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m21[0m  [36m    (set! (.-width canvas)  (.-innerWidth js/window))[0m
+  [36m22[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.326 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:17  column:7  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/gameState[0m
+
+  [36m13[0m  [36m(defn moveObject[obj][0m
+  [36m14[0m  [36m     (let [{:keys [x y vx vy]} obj][0m
+  [36m15[0m  [36m        (assoc obj :x (+ x vx) :y (+ y vy))))[0m
+  [36m16[0m  [36m[0m
+  [33m17[0m  [1m(atom gameState) [0m
+  [0m  [0m  [33m      ^--- Use of undeclared Var testCLJS.core/gameState[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(defn mainLoop[][0m
+  [36m20[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m21[0m  [36m    (set! (.-width canvas)  (.-innerWidth js/window))[0m
+  [36m22[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.312 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:17  column:7  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/gameState[0m
+
+  [36m13[0m  [36m(defn moveObject[obj][0m
+  [36m14[0m  [36m     (let [{:keys [x y vx vy]} obj][0m
+  [36m15[0m  [36m        (assoc obj :x (+ x vx) :y (+ y vy))))[0m
+  [36m16[0m  [36m[0m
+  [33m17[0m  [1m(atom gameState) [0m
+  [0m  [0m  [33m      ^--- Use of undeclared Var testCLJS.core/gameState[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(defn mainLoop[][0m
+  [36m20[0m  [36m    ; (set! (.-fillStyle ctx) "black")[0m
+  [36m21[0m  [36m    ; (set! (.-width canvas)  (.-innerWidth js/window))[0m
+  [36m22[0m  [36m    ; (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.475 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/testCLJS/core.cljs   line:17  column:7  ----[0m
+
+  [1mUse of undeclared Var testCLJS.core/gameState[0m
+
+  [36m13[0m  [36m(defn moveObject[obj][0m
+  [36m14[0m  [36m     (let [{:keys [x y vx vy]} obj][0m
+  [36m15[0m  [36m        (assoc obj :x (+ x vx) :y (+ y vy))))[0m
+  [36m16[0m  [36m[0m
+  [33m17[0m  [1m(atom gameState) [0m
+  [0m  [0m  [33m      ^--- Use of undeclared Var testCLJS.core/gameState[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(defn mainLoop[][0m
+  [36m20[0m  [36m    (set! (.-fillStyle ctx) "black")[0m
+  [36m21[0m  [36m    (set! (.-width canvas)  (.-innerWidth js/window))[0m
+  [36m22[0m  [36m    (set! (.-height canvas) (.-innerHeight js/window))[0m
+
+[36m----  Compiler Warning : Please see src/testCLJS/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.382 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.445 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.687 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.602 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.377 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.449 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.557 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.457 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.207 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.214 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.392 seconds.[0m
+notifying browser that file changed:  out/testCLJS/core.js
